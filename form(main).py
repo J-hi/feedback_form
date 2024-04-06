@@ -12,7 +12,10 @@ if(last_name.isdigit()):
 #
 email=input("email:")
 #
-contact=input("contact number:")
+contact=int(input("contact number:"))
+if(len(str(contact))!=10):
+    print("please enter a valid contact numbeer.")
+    contact=int(input("contact number:"))
 #
 enroll_id=input("enrollment no:")
 #
