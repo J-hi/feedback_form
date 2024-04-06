@@ -28,5 +28,8 @@ if(course_code!=DN2006Y23||course_code!=LA1006||course_code!=EN2005Y23||course_c
 
 faculty=input("faculty name:")
 sem=input("semester:")
+check = input("Are you checked all the queries(reply in y/n)")
+if(check==y):
+    print("Thankyou for your valuable feedbac!",first_name)
 
 #add feedback questions with input statement
