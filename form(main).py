@@ -45,4 +45,37 @@ if(faculty.isdigit()):
 #
 sem=input("semester:")
 
+#
+cours_satifation=input("Are you satisfied with the overall teaching of the course.")
+#
+couselead_knowledge=input("Subject knowledge of the Course Lead.")
+#
+couselead_Communication=input("Communication skills of the Course Lead")
+#
+timeing=input("Lectures were delivered at a pace that is")
+#
+punctually=input("Does the Instructor punctually come for the lectures / leave on time")
+#
+additional_knowledge=input("In addition to the subject knowledge, did you gain anything useful from the Course lead ")
+#
+next_course=input("Would you like to have another course with the same Course Lead")
+#
+course_rating=input("Overall rating for the Course")
+#
+organisation=input("he course was organised in a way that helped me to learn ")
+#
+concepts=input("The course assignments help me to understand the concepts more clearly")
+#
+substantially=input("The course substantially improved my knowledge level")
+#
+rating_lead=input("Overall rating for the Course Lead")
+#
+course_deliver=input("What changes in way of course delivery / pedagogy will you recommend")
+#
+liked_in_course=input("What did you like the most about the course instructor ")
+#
+liked_least=input("What did you like the least about the course instructor")
+#
+improvement=input("Identify any other things that can help to improve the course")
+
 #add feedback questions with input statement
