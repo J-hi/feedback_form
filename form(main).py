@@ -77,5 +77,14 @@ liked_in_course=input("What did you like the most about the course instructor ")
 liked_least=input("What did you like the least about the course instructor")
 #
 improvement=input("Identify any other things that can help to improve the course")
+#
+suggestions=input("Do you have any suggestion")
 
+#
+input("signature:")
+
+#
+submit=input("press 1 to submit the from")
+if submit=1:
+    print("Thank You")
 #add feedback questions with input statement
