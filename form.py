@@ -47,7 +47,7 @@ if(course.isdigit()):
     print("invalid input")
     course=input("course:")
 #
-course_code=input("course code")
+course_code=input("course code:")
 
 #
 faculty=input("faculty name:")
