@@ -1,4 +1,4 @@
-print("---------------Feedback Form------------------")
+print("Feedback Form")
 #
 first_name=input("first name: ")
 if(first_name.isdigit()):
@@ -16,45 +16,41 @@ contact=input("contact number:")
 #
 enroll_id=input("enrollment no:")
 #
-print("select school : ")
-print("1.SOE\n2.SOM\n3.SOD\n4.SOL")
-school = int(input("-: "))
-if school ==1:
-    print("SOE")
-if school ==2:
-    print("SOM")
-if school ==3:
-    print("SOD")
-if school ==4:
-    print("SOL")
-
+school==input("school:")
+if(school.isdigit()):
+    print("invalid input")
+    last_name=input("last name: ")
 #
 programme=input("programme:")
 if(programme.isdigit()):
     print("invalid input")
-    programme=input("programme:")
+    last_name=input("last name: ")
 #
 discipline=input("discipline:")
 if(discipline.isdigit()):
     print("invalid input")
-    discipline=input("discipline:")
+    last_name=input("last name: ")
 #
 course=input("course:")
 if(course.isdigit()):
     print("invalid input")
-    course=input("course:")
+    last_name=input("last name: ")
 #
 course_code=input("course code")
-
 #
 faculty=input("faculty name:")
 if(faculty.isdigit()):
     print("invalid input")
-    faculty=input("faculty name:")
+    last_name=input("last name: ")
 #
 sem=input("semester:")
 
-print("______________________________Feedback Please____________________________________________")
-
-
 #add feedback questions with input statement
+Question_1=input("Are you satisfied with the overall teaching of the Course:")
+Question_2=input("Subject knowledge of the Cource Lead:")
+Question_3=input("Communication skils of the Course Lead:")
+Question_4=input("Lectures were delivered at a pace that is:")
+Question_5=input("Would you like to have another Course:")
+Question_6=input("The Course was organised in a way that helped me to learn:")
+Question_7=input("Overall rating for the Course:")
+Question_8=input("Overall rating for the Course Lead:")
