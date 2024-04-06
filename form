@@ -22,8 +22,9 @@ programme=input("programme:")
 discipline=input("discipline:")
 course=input("course:")
 course_code=input("course code")
-if(course_code!=DN2006Y23):
+if(course_code!=DN2006Y23||course_code!=LA1006||course_code!=EN2005Y23||course_code!=EN2004Y23):
     print("invalid input!")
+    course_code=input("enter valid course code:")
 
 faculty=input("faculty name:")
 sem=input("semester:")
