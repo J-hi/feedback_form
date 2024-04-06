@@ -27,8 +27,7 @@ if school ==3:
     print("SOD")
 if school ==4:
     print("SOL")
-else :
-    print("ENTER A VALID NUMBER ")
+
 #
 programme=input("programme:")
 if(programme.isdigit()):
