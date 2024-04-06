@@ -71,6 +71,11 @@ Question_6=input("6. The Course was organised in a way that helped me to learn:"
 Question_7=input("7. Overall rating for the Course:")
 Question_8=input("8. Overall rating for the Course Lead:")
 
+ans=input("Have you checked your answers (Y/N):")
+if(ans=='Y'):
+    print("OK!")
+    
+
 print("_______________THANK YOU_________________ ")
 print("___________________________________________________________________________________")
 
