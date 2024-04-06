@@ -1,7 +1,13 @@
 print("Feedback Form")
 print("Avantika university")
 first_name=input("first name: ")
+if(first_name.isdigit()):
+    print("invalid input! the name can not contain digit")
+    first_name=input("first name: ")
 last_name=input("last name: ")
+if(last_name.isdigit()):
+    print("invalid input!the name can not contain digit")
+    first_name=input("first name: ")
 email=input("email:")
 contact=input("contact number:")
 if(len(str(contact))>10):
@@ -16,6 +22,9 @@ programme=input("programme:")
 discipline=input("discipline:")
 course=input("course:")
 course_code=input("course code")
+if(course_code!=DN2006Y23):
+    print("invalid input!")
+
 faculty=input("faculty name:")
 sem=input("semester:")
 
