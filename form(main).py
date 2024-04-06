@@ -61,3 +61,16 @@ print("______________________________Feedback Please____________________________
 
 
 #add feedback questions with input statement
+
+Question_1=input("1. Are you satisfied with the overall teaching of the Course:")
+Question_2=input("2. Subject knowledge of the Cource Lead:")
+Question_3=input("3. Communication skils of the Course Lead:")
+Question_4=input("4. Lectures were delivered at a pace that is:")
+Question_5=input("5. Would you like to have another Course:")
+Question_6=input("6. The Course was organised in a way that helped me to learn:")
+Question_7=input("7. Overall rating for the Course:")
+Question_8=input("8. Overall rating for the Course Lead:")
+
+print("_______________THANK YOU_________________ ")
+print("___________________________________________________________________________________")
+
