@@ -1,9 +1,17 @@
 print("Feedback Form")
+print("Avantika university")
 first_name=input("first name: ")
+        print("the password contains the digit"))
 last_name=input("last name: ")
 email=input("email:")
 contact=input("contact number:")
+if(len(str(contact))>10):
+    print("invalid input")
+    contact = input("enter the valid input:")
+
 enroll_id=input("enrollment no:")
+if(len(str(enroll_id))>9 || len(str(enroll_id))<9):
+    print("invalid input:- your enrollment id is of only 9digits")
 school==input("school:")
 programme=input("programme:")
 discipline=input("discipline:")
