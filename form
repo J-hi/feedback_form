@@ -1,7 +1,6 @@
 print("Feedback Form")
 print("Avantika university")
 first_name=input("first name: ")
-        print("the password contains the digit"))
 last_name=input("last name: ")
 email=input("email:")
 contact=input("contact number:")
